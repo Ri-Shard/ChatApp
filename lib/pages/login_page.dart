@@ -18,8 +18,8 @@ class LoginPage extends StatelessWidget {
             physics: BouncingScrollPhysics(),
             child: Container(
               height: MediaQuery.of(context).size.height * 0.9,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              child: ListView(
+                //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Logo(
                     titulo: 'Login',
